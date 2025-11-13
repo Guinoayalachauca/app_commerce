@@ -1,1 +1,39 @@
 # Ignorar archivos del core de WordPress
+# Ignorar core de WordPress
+/wp-admin/
+/wp-includes/
+/wp-login.php
+/wp-signup.php
+/wp-activate.php
+/wp-trackback.php
+/wp-*.php
+
+# Ignorar uploads por default (si no quieres subir imágenes)
+/wp-content/uploads/
+
+# Permitir themes y plugins personalizados
+!wp-content/themes/
+!wp-content/plugins/
+
+# Ignorar archivos de configuración sensibles
+wp-config.php
+wp-config-sample.php
+
+# Ignorar archivos innecesarios
+readme.html
+license.txt
+.htaccess
+
+# Backups y empaquetados
+*.zip
+*.tar.gz
+*.sql
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Node / vendor si usa frontend tools
+node_modules/
+vendor/
+
